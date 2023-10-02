@@ -63,7 +63,12 @@ In cases where integrations report on the same dataset differently (i.e., FQDN v
 ### Record datasets before access
 Is this just a form of bootstrapping?
 ### Dataset connections
-Ability to connect 2 dataset entities without additional information about the run that created that connection
+Ability to connect 2 dataset entities without additional information about the run that created that connection.
+### Views, dashboards, and reports
+When views, dashboards, reports, and similar datasets are defined, there is no
+data transferred and therefore conceptually there is no run. However, the
+relationship between the underlying data source and the view, dashboard, report
+is relevant for lineage analysis.
 
 ## Proposed Model
 ### Extension
